@@ -1,0 +1,8 @@
+{
+  // Sample opencode config for testing
+  "plugin": [
+    "opencode-sound-plugin",
+    ["/home/user/dev/my-plugin/dist/index.js", { "botToken": "abc", "chatId": "123" }],
+    ["https://example.com/plugin.mjs", {}]
+  ]
+}
